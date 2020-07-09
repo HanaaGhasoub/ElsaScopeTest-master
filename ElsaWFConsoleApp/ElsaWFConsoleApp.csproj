@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>    
+    <PackageReference Include="Elsa" Version="1.3.0.7-preview" />
+    <PackageReference Include="Elsa.Persistence.EntityFrameworkCore" Version="1.3.0.7-preview" />
+  </ItemGroup>
+</Project>
